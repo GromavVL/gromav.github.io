@@ -1,0 +1,959 @@
+@media (max-width: 1550px) {
+    .content-con .container .contact-form {
+        display: block;
+
+    }
+
+    .content-con .container .contact-for {
+        margin: auto;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 1380px) {
+    .content-t-one .container .characteristics {
+        top: 80%;
+    }
+}
+
+
+@media (max-width: 1180px) {
+    header nav, .vrap .nav-t-al {
+        width: 90%;
+
+    }
+
+    footer .nav {
+        width: 95%;
+
+    }
+
+    footer .nav ul {
+        justify-content: normal;
+        gap: 10px;
+    }
+
+}
+
+@media (max-width: 1113px) {
+    .content-t-al .tomato-hybrids h2 {
+        font-size: 39px;
+        margin-bottom: 30px;
+    }
+
+    .content-t-al .tomato-hybrids p {
+        font-size: 15px;
+        width: 90%;
+    }
+
+    .breeding-info .container .breeding-card h3 {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+
+    .breeding-info .container .breeding-card br {
+        display: none;
+    }
+
+    .breeding-info .container .breeding-card p {
+        font-size: 15px;
+    }
+
+    .variety-catalog p {
+        font-size: 15px;
+    }
+
+    .variety-catalog .description .line {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .variety-catalog .container {
+        grid-template-columns: 1fr auto;
+        column-gap: 0;
+        max-width: 800px;
+        width: 100%;
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 1114px) {
+    .variety-catalog {
+        width: 740px;
+        overflow: hidden;
+    }
+
+    .vision-mission {
+
+    }
+
+    .vision-mission img {
+        height: 480px;
+        width: 480px;
+    }
+
+    .vision-mission .vision {
+        opacity: 1;
+        transform: translateX(0);
+        width: 1030px;
+    }
+
+    .vision-mission .mission {
+        width: 1030px;
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .content-t-one .container {
+        padding-left: 10px;
+        overflow: hidden;
+        width: 95%;
+    }
+
+    .content-t-one .container .info {
+        flex-direction: column;
+        width: 800px;
+
+    }
+
+    .content-t-one .container .info button {
+        margin-left: 0;
+    }
+
+    .info .title .wrap.visible {
+        margin-bottom: 50px;
+    }
+
+    .content-t-one .container .characteristics {
+
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    .content-t-one .info .title h1 {
+        font-size: 40px;
+        width: 800px;
+    }
+}
+
+@media (max-width: 1075px) {
+
+    .vision-mission img {
+        height: 400px;
+        width: 400px;
+    }
+
+    .vision-mission .vision {
+        width: 940px;
+        font-size: 17px;
+
+    }
+
+    .vision-mission .mission {
+        width: 940px;
+        font-size: 17px
+    }
+
+    footer .nav {
+
+        font-size: 13px;
+    }
+
+    footer .nav img {
+        height: 25px;
+        width: 25px;
+    }
+
+    footer .nav ul {
+        justify-content: normal;
+        gap: 10px;
+    }
+
+    .content-t-al .tomato-hybrids {
+        padding-left: 40px;
+    }
+
+    .content-t-al .tomato-hybrids h2 {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
+    .content-t-al .tomato-hybrids p {
+        font-size: 14px;
+        width: 80%;
+    }
+
+    .breeding-info .container .breeding-card h3 {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+
+    .breeding-info .container .breeding-card br {
+        display: none;
+    }
+
+    .breeding-info .container .breeding-card p {
+        font-size: 15px;
+    }
+
+    .variety-catalog p {
+        font-size: 15px;
+    }
+
+    .variety-catalog .description .line {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .variety-catalog .container {
+        grid-template-columns: 1fr auto;
+        column-gap: 0;
+        max-width: 740px;
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .variety-catalog .container a {
+        overflow: hidden;
+    }
+
+    .content-t-al .tomato-hybrids {
+        overflow: hidden;
+        width: 95%;
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 1051px) {
+    .categories {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        gap: 18px 0;
+    }
+
+    .categories .categories-card:nth-child(3n + 1):last-child {
+        grid-column: 2 / 3;
+    }
+
+    .categories .categories-card img {
+
+    }
+
+    .categories .categories-card p {
+        font-size: 17px;
+    }
+
+    .activities {
+        padding: 40px;
+    }
+
+    .activities h2 {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+
+    .activities .activities-categories .activities-card h3 {
+        font-size: 18px;
+        padding-bottom: 18px;
+    }
+
+    .activities .activities-categories .activities-card p {
+        font-size: 15px;
+    }
+
+    .activities .activities-categories .activities-card img {
+        width: 260px;
+        height: 220px;
+    }
+
+    .activities .highlight {
+        margin-bottom: 15px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .contact {
+        height: 490px;
+        background-size: 100% auto;
+        background-position: center -20px;
+        background-repeat: no-repeat;
+    }
+
+    .tomato-all {
+
+        height: 490px;
+        background-size: 100% auto;
+        background-position: center -80px;
+        background-repeat: no-repeat;
+
+    }
+
+    .content-t-al .tomato-hybrids p.highlight {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 959px) {
+    .content-t-al .tomato-hybrids {
+        overflow: hidden;
+        padding-left: 20px;
+    }
+
+    .content-t-al .tomato-hybrids h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .content-t-al .tomato-hybrids .text p {
+
+        font-size: 14px;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .content-t-al .tomato-hybrids .text {
+
+    }
+
+    .breeding-info .container .breeding-card h3 {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+
+    .breeding-info .container .breeding-card br {
+        display: none;
+    }
+
+    .breeding-info .container .breeding-card p {
+        font-size: 15px;
+    }
+
+    .variety-catalog p {
+        font-size: 15px;
+    }
+
+    .variety-catalog .description .line {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .variety-catalog {
+        width: 740px;
+    }
+
+    .variety-catalog .container {
+
+        margin-left: 20px;
+        max-width: 740px;
+    }
+
+    .variety-catalog .container .tomato-card .container {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 939px) {
+    .vision-mission {
+        padding: 51px 0 80px 0;
+    }
+
+    .vision-mission img {
+        height: 350px;
+        width: 350px;
+    }
+
+    .vision-mission .vision {
+        width: 880px;
+    }
+
+    .vision-mission .vision p {
+        font-size: 18px;
+    }
+
+    .vision-mission .mission h2 {
+        font-size: 49px;
+        margin-bottom: 30px;
+    }
+
+    .vision-mission .mission {
+        width: 880px;
+    }
+
+    .vision-mission .mission p {
+        font-size: 18px;
+    }
+
+    .vision-mission .vision h2 {
+        font-size: 49px;
+        margin-bottom: 30px;
+    }
+
+    .vision-mission .highlight {
+        margin-bottom: 18px;
+    }
+
+    footer .nav {
+        width: 100%;
+
+    }
+
+    .hero h1 {
+        font-size: 40px;
+
+    }
+}
+
+@media (max-width: 897px) {
+    .activities {
+        padding: 30px;
+    }
+
+    .activities h2 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .activities .activities-categories .activities-card h3 {
+        font-size: 15px;
+        padding-bottom: 14px;
+    }
+
+    .activities .activities-categories .activities-card p {
+        font-size: 13px;
+    }
+
+    .activities .activities-categories .activities-card img {
+        width: 240px;
+        height: 200px;
+    }
+
+    .activities .highlight {
+        margin-bottom: 15px;
+    }
+
+    .activities .activities-categories {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 18px 0;
+    }
+
+    .activities .activities-categories .activities-card:nth-child(3):last-child {
+        grid-column: span 2;
+        justify-self: center;
+    }
+
+
+    footer .nav {
+
+        font-size: 12px;
+    }
+
+    footer .nav img {
+        height: 22px;
+        width: 22px;
+    }
+
+    footer .nav ul {
+        justify-content: normal;
+        gap: 10px;
+    }
+
+    .copy p {
+        font-size: 12px;
+    }
+
+    header nav, .vrap .nav-t-al {
+        width: 90%;
+
+    }
+
+    header nav a, .vrap .nav-t-al a {
+        font-size: 14px;
+    }
+
+    header nav a img, .vrap .nav-t-al a img {
+        height: 103px;
+        width: 216px;
+    }
+
+
+}
+
+
+@media (max-width: 887px) {
+    header .menu-btn {
+        display: block;
+    }
+
+    header .menu, .vrap .nav-t-al .menu-t-al {
+        display: none;
+    }
+
+    header .menu.active, .vrap .nav-t-al .menu-t-al.active {
+        display: block;
+    }
+
+    .vision-mission {
+        padding: 40px 0 69px 0;
+
+    }
+
+    .vision-mission img {
+        height: 300px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .vision-mission .vision {
+        width: 400px;
+        flex-direction: column;
+    }
+
+    .vision-mission .vision p {
+        font-size: 15px;
+    }
+
+    .vision-mission .mission h2 {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
+    .vision-mission .mission {
+        width: 400px;
+        flex-direction: column-reverse;
+    }
+
+    .vision-mission .mission p {
+        font-size: 15px;
+    }
+
+    .vision-mission .text {
+        margin-bottom: 20px;
+    }
+
+    .vision-mission .vision h2 {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
+    .vision-mission .highlight {
+        margin-bottom: 18px;
+    }
+
+    .hero {
+        padding: 150px 0;
+    }
+
+    footer .nav {
+        width: 100%;
+        font-size: 8px;
+        grid-template-columns: auto;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+    .content-con .container .contact-for {
+        width: 85%;
+    }
+
+    .wrap-nav {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-template-rows: auto auto;
+        grid-template-areas:
+        "logo menu"
+        "search search";
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .wrap-nav a {
+        grid-area: logo;
+    }
+
+    .menu-btn {
+        grid-area: menu;
+    }
+
+    .w-in {
+        grid-area: search;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .wrap-nav input {
+        width: 200px;
+        border: none;
+        background: transparent;
+        outline: none;
+        margin-top: 30px;
+
+    }
+
+    .vision-mission .text {
+        text-align: center;
+    }
+
+    .tomato-all, .contact {
+        background-position: center 10px;
+    }
+
+    .contact {
+        background-position: center 80px;
+    }
+}
+
+@media (max-width: 831px) {
+    .variety-catalog .container {
+        grid-template-columns: auto;
+        margin-left: 180px;
+        max-width: 740px;
+    }
+}
+
+@media (max-width: 787px) {
+    .content-t-one .info .title h1 {
+        width: 600px;
+        margin-bottom: 30px;
+    }
+
+    .content-t-one .characteristics .container .wrap {
+        grid-template-columns: auto;
+    }
+
+    .content-t-one .info .wrapper-img .wrap img {
+        width: 320px;
+        height: 320px;
+    }
+
+    .content-t-one .info .wrap {
+        font-size: 25px;
+        gap: 10px;
+    }
+
+    .content-t-one .info .wrap img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .content-t-one .characteristics h3 {
+        font-size: 17px;
+    }
+
+    .content-t-one .characteristics .container .wrap li {
+        font-size: 15px;
+    }
+
+    .tomato-all, .contact {
+        background-position: center 50px;
+    }
+
+    .contact {
+        background-position: center 90px;
+    }
+    .variety-catalog .container a {
+        width: 340px;
+    }
+    .variety-catalog .container{
+        width: 340px;
+    }
+    .variety-catalog {
+        width: 640px;
+    }
+    .breeding-info .container .breeding-card p {
+        font-size: 12px;
+    }
+    .breeding-info .container .breeding-card h3 {
+        font-size: 15px;
+        margin-bottom: 18px;
+    }
+    .breeding-info .container .breeding-card {
+        width: 95%;
+    }
+}
+
+@media (max-width: 672px) {
+    .content-con .container .contact-form textarea {
+        width: 400px;
+        margin-bottom: 40px;
+    }
+
+    .content-con .container .contact-form .other-input {
+        width: 400px;
+    }
+
+    .content-con .container .contact-form select {
+        width: 400px;
+    }
+
+    .content-con .container .contact-form .wrap-captcha {
+        display: block;
+    }
+
+    .content-con .container .contact-form .wrap-captcha img {
+        margin-bottom: 20px;
+    }
+
+    .content-con .container .contact-for {
+        width: 85%;
+    }
+
+    .tomato-all, .contact {
+        background-position: center 80px;
+    }
+
+    .contact {
+        background-position: center 130px;
+    }
+
+}
+
+
+@media (max-width: 632px) {
+    .content-t-one .info .title h1 {
+        width: 300px;
+        margin-bottom: 30px;
+    }
+
+    .activities .activities-categories {
+        display: block;
+    }
+
+    .variety-catalog .container {
+        margin-left: 10px;
+        width: 350px;
+    }
+
+    .variety-catalog .container a {
+        width: 350px;
+    }
+
+    .variety-catalog .description {
+        text-align: left;
+        width: 350px;
+        margin-bottom: 20px;
+    }
+
+    .content-t-al .tomato-hybrids {
+        padding-left: 20px;
+    }
+
+    .content-t-al .tomato-hybrids h2 {
+        font-size: 24px;
+        margin-bottom: 28px;
+    }
+
+    .content-t-al .tomato-hybrids .text p {
+        font-size: 14px;
+        width: 29%;
+        margin-bottom: 26px;
+    }
+
+    .content-t-al .tomato-hybrids br {
+        display: block;
+    }
+
+    .content-t-al .tomato-hybrids .text {
+        overflow: hidden;
+    }
+
+    .content-t-al .variety-catalog {
+        width: 350px;
+    }
+
+    .breeding-info .container {
+        display: block;
+
+    }
+
+    .breeding-info .container .breeding-card {
+        margin-bottom: 50px;
+    }
+
+    .content-con .container .contact-for {
+        width: 85%;
+        margin: 0;
+        margin-left: 10px;
+    }
+
+    .tomato-all, .contact {
+        background-position: center 140px;
+    }
+
+    .contact {
+        background-position: center 170px;
+    }
+}
+
+@media (max-width: 552px) {
+
+    .categories .categories-card {
+        margin-bottom: 30px;
+    }
+
+    .categories {
+        display: block;
+
+    }
+
+    .tomato-all, .contact {
+        background-position: center 160px;
+    }
+
+    .contact {
+        background-position: center 220px;
+    }
+}
+
+@media (max-width: 502px) {
+
+    .vision-mission .text {
+        text-align: center;
+    }
+
+    .tomato-all {
+        background-position: center 200px;
+    }
+    .contact {
+        background-position: center 230px;
+    }
+
+}
+
+@media (max-width: 434px) {
+    .content-con .container .contact-form textarea {
+        width: 350px;
+    }
+
+    .content-con .container .contact-form .other-input {
+        width: 350px;
+    }
+
+    .content-con .container .contact-form select {
+        width: 350px;
+    }
+
+    .content-con .container .contact-for {
+
+    }
+
+    .tomato-all, .contact {
+        background-position: center 220px;
+        height: 400px;
+    }
+
+    .contact {
+        background-position: center 230px;
+    }
+
+    .content-t-al .tomato-hybrids .text p {
+        width: 24%;
+    }
+
+    footer ul {
+        display: block;
+        line-height: 1.5em;
+        font-size: 12px;
+    }
+    .hero {
+        padding: 100px 0;
+    }
+}
+
+@media (max-width: 394px) {
+    .content-con .container .contact-form input {
+        width: 300px;
+    }
+
+    .content-con .container .contact-form select {
+        width: 300px;
+    }
+
+    .content-con .container .contact-form .other-input {
+        width: 300px;
+    }
+
+    .content-con .container .contact-form textarea {
+        width: 300px;
+    }
+
+    .vision-mission .text {
+        width: 80%;
+    }
+
+    .vision-mission .vision {
+        margin-bottom: 30px;
+        width: 320px;
+
+    }
+
+    .vision-mission img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .vision-mission .mission {
+        width: 320px;
+    }
+    .info .title .wrap.visible{
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    .content-t-one .info .wrapper-img .wrap img{
+        width: 270px;
+        height: 270px;
+    }
+    .content-t-one .container .info button{
+        height: 48px;
+        width: 200px;
+        font-size: 15px;
+    }
+    .content-t-one .container .info button img{
+        height: 28px;
+        width: 28px;
+
+    }
+    .variety-catalog .tomato-card{
+        width: 330px;
+    }
+    .variety-catalog .tomato-card img{
+        width: 340px;
+        height: 232px;
+    }
+    .variety-catalog{
+        width: 340px;
+    }
+    .variety-catalog p{
+        font-size: 13px;
+    }
+    .content-con .container .contact-form p{
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 354px) {
+    .variety-catalog .tomato-card{
+        width: 300px;
+    }
+    .variety-catalog .tomato-card img{
+        width: 330px;
+        height: 232px;
+    }
+    .variety-catalog p{
+        font-size: 12px;
+    }
+    .content-t-al .variety-catalog{
+        width: 320px;
+    }
+}

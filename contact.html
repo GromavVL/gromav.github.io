@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="js/main.js" defer></script>
+    <title>Contact us</title>
+</head>
+
+<body>
+    <div class="nav-phone">
+        <div class="menu">
+            <div class="close-btn">
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                    <path
+                        d="M18.36 5.64a1 1 0 0 0-1.41 0L12 9.59 7.05 4.64a1 1 0 0 0-1.41 1.41L10.59 12l-4.95 4.95a1 1 0 0 0 1.41 1.41L12 14.41l4.95 4.95a1 1 0 0 0 1.41-1.41L13.41 12l4.95-4.95a1 1 0 0 0 0-1.41z" />
+                </svg>
+            </div>
+            <div class="">
+                <label>
+                    <input type="text" placeholder="Search">
+                    <img src="img/ico_search.png" alt="Search">
+                </label>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Company Profile</a></li>
+                <li><a href="tomato_all.html">Products</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">R & D</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <header class="contact">
+        <div class="vrap">
+            <div class="nav-t-al">
+                <div class="wrap-nav">
+                    <a href="index.html"><img src="img/logo.png" alt="logo"> </a>
+                    <button class="menu-btn" style="color: #000000">☰</button>
+                    <div class="w-in">
+                        <label>
+                            <input type="text" placeholder="Search">
+                            <img src="img/ico_search.png" alt="Search">
+                        </label>
+                    </div>
+                </div>
+                <div class="menu-t-al">
+                    <div class="">
+                        <label>
+                            <input type="text" placeholder="Search">
+                            <img src="img/ico_search.png" alt="Search">
+                        </label>
+                    </div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="">Company Profile</a></li>
+                        <li><a href="apple_all.html">Products</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">R & D</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="content-con">
+
+            <div class="container" id="app">
+
+                <div class="contact-for">
+
+                    <h1>Contact us</h1>
+                    <p class="highlight">*****</p>
+                    <!-- Корзина -->
+
+
+                    <div v-if="!orderPlaced">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Cart</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr v-for="item in cart" :key="item.id">
+                                    <td><img :src="item.image" width="50"></td>
+                                    <td>{{ item.title }} |</td>
+                                    <td>{{ item.short_text }}</td>
+                                    <td>
+                                        <button @click="removeFromCart(item.id)">✗</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="cart" v-if="Object.keys(cart).length === 0">
+                            <p>Your cart is empty.</p>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" @submit.prevent="makeOrder" v-if="!orderPlaced">
+                        <div class="column">
+                            <p>Name *</p>
+                            <label><input type="text" v-model="contactFields.name" required></label>
+
+                            <p>Company Name</p>
+                            <label><input type="text"></label>
+
+                            <p>Position</p>
+                            <label><input type="text"></label>
+
+                            <p>City</p>
+                            <label><input type="text"></label>
+
+                            <p>Country</p>
+                            <label><input type="text"></label>
+
+                            <p>Telephone</p>
+                            <label><input type="tel"></label>
+
+                            <p>Email *</p>
+                            <label><input type="email" v-model="contactFields.email" required></label>
+                        </div>
+
+                        <div class="column">
+                            <p>You are a</p>
+                            <label>
+                                <select>
+                                    <option>seed producer</option>
+                                    <option>farmer</option>
+                                    <option>distributor</option>
+                                    <option>other</option>
+                                </select>
+                            </label>
+
+                            <p>If other, please specify</p>
+                            <label><input class="other-input" type="text"></label>
+
+                            <p>You are interested in</p>
+                            <label><textarea v-model="contactFields.message"></textarea></label>
+
+                            <p>Please type this code</p>
+                            <div class="wrap-captcha">
+                                <img src="img/contact/captcha.png" alt="captcha">
+                                <label>
+                                    <input type="text" class="small-input" required>
+                                </label>
+                                <div class="" v-if="Object.keys(cart).length > 0 && !orderPlaced">
+                                    <button type="submit" class="button" @click="submitForm">Send Message</button>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </form>
+                    <div class="order-placed" v-if="orderPlaced">
+                        <h2>Thanks for your order!</h2>
+                        <p>Name: {{ contactFields.name }}</p>
+                        <p>Email: {{ contactFields.email }}</p>
+                        <p>Message: {{ contactFields.message }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="our-address">
+                <h1>Our Address</h1>
+                <div class="text">
+                    <p>AGRIDERA Seeds & Agriculture Ltd.</p>
+                    <p>P.O Box 103,</p>
+                    <p>Gedera 70750, Israel.</p>
+                    <p>Telephone: <span>+972 8 944 9222</span></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="nav">
+            <div class="menu">
+                <ul>
+                    <li><a href="">PROFILE</a></li>
+                    <li><a href="">MANAGEMENT</a></li>
+                    <li><a href="">PRODUCTS</a></li>
+                    <li><a href="">R & D</a></li>
+                    <li><a href="">LINKS</a></li>
+                    <li><a href="">SITEMAP</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="social">
+                <a href=""><img src="img/social/ico_in.svg" alt="in"></a>
+                <a href=""><img src="img/social/ico_inst.svg" alt="inst"></a>
+                <a href=""><img src="img/social/ico_tube.svg" alt="yt"></a>
+                <a href=""><img src="img/social/ico_tw.svg" alt="X"></a>
+                <a href=""><img src="img/social/ico_fb.svg" alt="fb"></a>
+            </div>
+        </div>
+
+    </footer>
+    <div class="copy">
+        <p>AGRIDERA SEEDS & AGRICULTURE LTD. © 2020</p>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuBtn = document.querySelector("header .menu-btn");
+            const menu = document.querySelector(".nav-phone");
+
+            menuBtn.addEventListener("click", function () {
+                menu.classList.toggle("active");
+            });
+        });
+
+        document.querySelector('.nav-phone .close-btn').addEventListener('click', function () {
+            document.querySelector('.nav-phone').classList.remove('active');
+        });
+    </script>
+</body>
+
+</html>
